@@ -1,0 +1,24 @@
+# Dataset archives
+*.zip
+
+# Generated scenes and outputs
+*_output/
+*_output.zip
+
+# External source directories
+colmap_cuda_src/
+gaussian-splatting/
+
+# Logs and temporary files
+*.log
+*.tmp
+__pycache__/
+.DS_Store
+
+# Large reconstruction artifacts
+database.db
+sparse/
+distorted/
+images/
+input/
+point_cloud/
